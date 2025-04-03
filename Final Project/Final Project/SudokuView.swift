@@ -54,8 +54,9 @@ struct Section: View {
 
 struct Square: View {
   var body: some View{
-    Rectangle()
-      .frame(width: 50.0, height: 50.0)
+    Text("1")
+      .foregroundColor(.black)
+      .frame(width: 45.0, height: 45.0)
       .foregroundColor(.white)
       .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
   }
